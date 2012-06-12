@@ -37,7 +37,7 @@
             android:layout_width="14.00mm"
             android:layout_height="wrap_content"
             android:text="Fish" 
-            android:soundEffectsEnabled="true" android:clickable="false"/>
+            android:soundEffectsEnabled="true"/>
 
         <Button
             android:id="@+id/frozenvegies"
