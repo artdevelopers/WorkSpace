@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.00"
+        android:orientation="vertical"
+        android:paddingLeft="20sp" >
+
+		<LinearLayout
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:gravity="center"
+		    android:orientation="vertical" >
+            
+	     <TextView
+            android:id="@+id/coldstorage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cold Storage"
+            android:textAppearance="?android:attr/textAppearanceLarge" 
+            android:textStyle="bold" android:gravity="center"/>
+        
+        </LinearLayout>
+
+		<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:gravity="center">
+        
+        <Button 
+            android:id="@+id/fish" 
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="14.00mm"
+            android:layout_height="wrap_content"
+            android:text="Fish" 
+            android:soundEffectsEnabled="true" android:clickable="false"/>
+
+        <Button
+            android:id="@+id/frozenvegies"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="14.00mm"
+            android:layout_height="wrap_content"
+            android:text="Frozen Vegi" />
+
+        <Button
+            android:id="@+id/icecream"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="14.00mm"
+            android:layout_height="wrap_content"
+            android:text="Ice Creame" />
+ 		</LinearLayout>
+ 		
+ 		<LinearLayout
+ 		    android:layout_width="match_parent"
+ 		    android:layout_height="wrap_content" android:gravity="center">
+        
+        <Button
+        
+            android:id="@+id/chicken"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="14.00mm"
+            android:layout_height="wrap_content"
+            android:text="Chicken" />
+       
+        <Button
+        
+            android:id="@+id/goatmeat"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="14.00mm"
+            android:layout_height="wrap_content"
+            android:text="Goat Meat" />   
+        
+        </LinearLayout>
+    
+    </LinearLayout>
+
+</LinearLayout>
