@@ -11,19 +11,25 @@ public class EfrigeratorActivity extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.main);
-        
-        final MediaPlayer mpButtonClick = MediaPlayer.create(this, R.raw.button7);
-        
+        setContentView(R.layout.main);        
+        final MediaPlayer mpButtonClick = MediaPlayer.create(this, R.raw.button7);        
         Button Fish = (Button) findViewById(R.id.fish);
+        
+
         
         Fish.setOnClickListener(new View.OnClickListener() {
 			
 			public void onClick(View v) {
-				// TODO Auto-generated method stub
-			 mpButtonClick.start();	
+			// TODO Auto-generated method stub
+			mpButtonClick.start();	
+			setContentView(R.layout.fish);
+		        
 			}
+			
+			
 		});
+        
+        
         
         
     }
